@@ -1,0 +1,8 @@
+dependencies:
+  - name: highlight
+    version: 9.7.0
+    src: htmlwidgets/lib/highlight-9.7.0
+    script:
+      - highlight.pack.js
+    stylesheet:
+      - styles/solarized-light.css
