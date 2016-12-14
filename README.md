@@ -50,7 +50,7 @@ highlighter::highlight("
       delay = mean(arr_delay, na.rm = TRUE)
     ) %>% 
     filter(count > 20, dest != 'HNL')
-", width = "400px", height = "400px")
+", width = "400px", height = "200px")
 ```
 
 ![](README_files/figure-markdown_github/unnamed-chunk-1-1.png)
