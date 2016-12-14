@@ -1,9 +1,17 @@
 Package: highlighter
 Type: Package
-Title: What the Package Does (Title Case)
+Title: htmlwidgets wrapper for highlight.js
 Version: 0.1.0
-Author: Who wrote it
-Maintainer: Who to complain to <yourfault@somewhere.net>
-Description: More about what it does (maybe more than one line)
-License: What license is it under?
+Author: Filip Stachura <filip@appsilondatascience.com>
+Maintainer: Marek Rogala <marek@appsilondatascience.com>
+Description: This package is a htmlwidget wrapper for
+    an excelent highlight.js library. You can learn more
+    about javascript library https://highlightjs.org/
+    For now it only support R code chunks.
+BugReports: https://github.com/Appsilon/highlighter/issues
+Encoding: UTF-8
 LazyData: TRUE
+License: MIT + file LICENSE
+RoxygenNote: 5.0.1
+Imports:
+    htmlwidgets (>= 0.3)
