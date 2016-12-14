@@ -16,7 +16,7 @@ params:
 `r params$repo_name`
 ===========
 
-<div class="subheader">htmlwidgets wrapper for highlighter.js</div>
+<div class="subheader">htmlwidgets wrapper for highlight.js</div>
 
 <div class="section level2">
 This package is an htmlwidget wrapper for

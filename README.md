@@ -4,7 +4,7 @@
 highlighter
 ===========
 
-htmlwidgets wrapper for highlighter.js
+htmlwidgets wrapper for highlight.js
 
 This package is an htmlwidget wrapper for an excelent highlight.js library. You can learn more about javascript library <https://highlightjs.org/>.
 
