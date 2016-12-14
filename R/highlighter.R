@@ -3,6 +3,10 @@
 #' @param code Code you want to highlight.
 #'
 #' @import htmlwidgets
+#'
+#' @examples
+#' highlight("a <- 1:10")
+#'
 #' @export
 highlight <- function(code, width = "100%", height = "100%") {
   # create the widget

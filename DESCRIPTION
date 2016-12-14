@@ -4,7 +4,7 @@ Title: htmlwidgets wrapper for highlight.js
 Version: 0.1.0
 Author: Filip Stachura <filip@appsilondatascience.com>
 Maintainer: Marek Rogala <marek@appsilondatascience.com>
-Description: This package is a htmlwidget wrapper for
+Description: This package is an htmlwidget wrapper for
     an excelent highlight.js library. You can learn more
     about javascript library https://highlightjs.org/
     For now it only support R code chunks.

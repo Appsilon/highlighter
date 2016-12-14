@@ -1,5 +1,3 @@
-Repo documentation
-================
 
 <link href="http://fonts.googleapis.com/css?family=Lato:300,700,300italic|Inconsolata" rel="stylesheet" type="text/css"> <link href='docs/style.css' rel='stylesheet' type='text/css'>
 
@@ -8,7 +6,9 @@ highlighter
 
 htmlwidgets wrapper for highlighter.js
 
-TODO - Your repo short description here
+This package is an htmlwidget wrapper for an excelent highlight.js library. You can learn more about javascript library <https://highlightjs.org/>.
+
+For now it only support R code chunks.
 
 <!-- #Basic tutorial article is available on [Appsilon Data Science blog](your_future_art_link). -->
 <!-- Live demo link below 
@@ -40,6 +40,21 @@ To install [previous version]() you can run:
 Example
 -------
 
+``` r
+highlighter::highlight("
+  delays <- flights %>% 
+    group_by(dest) %>% 
+    summarise(
+      count = n(),
+      dist = mean(distance, na.rm = TRUE),
+      delay = mean(arr_delay, na.rm = TRUE)
+    ) %>% 
+    filter(count > 20, dest != 'HNL')
+", width = "400px", height = "400px")
+```
+
+![](README_files/figure-markdown_github/unnamed-chunk-1-1.png)
+
 How to contribute?
 ------------------
 
@@ -57,22 +72,13 @@ We used the latest versions of dependencies for this library, so please update y
 However, if you encounter any problems, try the following:
 
 1.  Up-to-date R language environment
-2.  Installing specific dependent libraries versions
-    -   shiny
-
-            install.packages("shiny", version='0.14.2.9001')
-
-    -   shinyjs
-
-            install.packages("shinyjs", version='0.8')
-
-        TODO dependecies
 
 Future enhacements
 ------------------
 
 -   CRAN release
--   TODO other features
+-   Support for other languages
+-   Support for other themes
 
 Appsilon Data Science
 =====================

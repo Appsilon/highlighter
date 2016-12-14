@@ -12,4 +12,8 @@ highlight(code, width = "100\%", height = "100\%")
 \description{
 Highlight any R code within htmlwidget.
 }
+\examples{
+highlight("a <- 1:10")
+
+}
 
