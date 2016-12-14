@@ -62,7 +62,7 @@ devtools::install_github("Appsilon/`r params$repo_name`", ref = "0.1.0")
 Example {.firebrick}
 -------
 
-```{r}
+```{r, fig.height=1}
 highlighter::highlight("
   delays <- flights %>% 
     group_by(dest) %>% 
@@ -72,7 +72,7 @@ highlighter::highlight("
       delay = mean(arr_delay, na.rm = TRUE)
     ) %>% 
     filter(count > 20, dest != 'HNL')
-", width = "400px", height = "400px")
+", width = "400px", height = "200px")
 ```
 
 How to contribute?
