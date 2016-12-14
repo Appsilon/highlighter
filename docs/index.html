@@ -165,8 +165,8 @@ document.write('<div class="logo"><a href="http://appsilondatascience.com"><img 
     ) %&gt;% 
     filter(count &gt; 20, dest != 'HNL')
 &quot;, width = &quot;400px&quot;, height = &quot;400px&quot;)</code></pre>
-<div id="htmlwidget-880e52fbec48e9522bf6" style="width:400px;height:400px;" class="highlighter html-widget"></div>
-<script type="application/json" data-for="htmlwidget-880e52fbec48e9522bf6">{"x":"\n  delays <- flights %>% \n    group_by(dest) %>% \n    summarise(\n      count = n(),\n      dist = mean(distance, na.rm = TRUE),\n      delay = mean(arr_delay, na.rm = TRUE)\n    ) %>% \n    filter(count > 20, dest != 'HNL')\n","evals":[],"jsHooks":[]}</script>
+<div id="htmlwidget-ad03f2d3ca770fa0957c" style="width:400px;height:400px;" class="highlighter html-widget"></div>
+<script type="application/json" data-for="htmlwidget-ad03f2d3ca770fa0957c">{"x":"\n  delays <- flights %>% \n    group_by(dest) %>% \n    summarise(\n      count = n(),\n      dist = mean(distance, na.rm = TRUE),\n      delay = mean(arr_delay, na.rm = TRUE)\n    ) %>% \n    filter(count > 20, dest != 'HNL')\n","evals":[],"jsHooks":[]}</script>
 </div>
 <div id="how-to-contribute" class="section level2">
 <h2>How to contribute?</h2>
